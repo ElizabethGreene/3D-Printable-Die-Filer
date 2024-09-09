@@ -22,13 +22,13 @@ This was specifically designed to use as few "vitamins", non-printed components,
 * The base and worktable can flex under heavy workpieces.
 * Supporting the drill works, but is dodgy. A better way to mount that is critical.
 * A zip-tie to hold down the drill trigger works, but is dodgy. A clamp would be a better solution.
-* * Forking the design to use a dedicated motor merits consideration
+    * Forking the design to use a dedicated motor merits consideration
 * Increase the overall stroke length from 25mm to 35-40
 * Adapt an adjustable stroke length mechanism ex: https://youtube.com/shorts/UjDqezJ2Gh0?si=csQhwm905_5Tf_nh
 * Increase the flexure linear throw and then pre-stress half of it at assembly to reduce the inherent stiffness at the center position.
 * Add an overarm support
-* * A good overarm support would allow the unit to be used as a scroll saw, an extremely useful tool.
-* * A good overarm support would also allow using it as a power hacksaw for thinner stock 
+    * A good overarm support would allow the unit to be used as a scroll saw, an extremely useful tool.
+    * A good overarm support would also allow using it as a power hacksaw for thinner stock 
 * Add work hold-downs
 * Consider forking and stretching the design for a big power hacksaw
 * ~~Edit this documentation to include pictures.~~
@@ -37,19 +37,19 @@ This was specifically designed to use as few "vitamins", non-printed components,
 # Bill of Materials
 * 3D Printed Parts
 * M3 Hardware
-* * All M3 hardware are standard DIN 912 socket head cap screws.
-* * I use this Iexcell M3 screw assortment kit from Amazon. https://amzn.to/3B85y6H
-* * 9 M3x30mm Socket Head Cap screws - Flexure to Support Mount screws and Crankshaft reinforcement
-* * 8 M3x14mm Socket Head Cap screws - Base to Support and Worktable to Support Mount screws
-* * 2 M3x12mm Socket Head Cap screw for File Clamp
-* * 1 M3x5mm Socket Head Cap screw - Bearing Retainer
-* * 1 M3 washer - Bearing Retainer
-* * 1 608z Skate Bearing 
-* * 10 M3 nuts
+    * All M3 hardware are standard DIN 912 socket head cap screws.
+    * I use this Iexcell M3 screw assortment kit from Amazon. https://amzn.to/3B85y6H
+    * 9 M3x30mm Socket Head Cap screws - Flexure to Support Mount screws and Crankshaft reinforcement
+    * 8 M3x14mm Socket Head Cap screws - Base to Support and Worktable to Support Mount screws
+    * 2 M3x12mm Socket Head Cap screw for File Clamp
+    * 1 M3x5mm Socket Head Cap screw - Bearing Retainer
+    * 1 M3 washer - Bearing Retainer
+    * 1 608z Skate Bearing 
+    * 10 M3 nuts
 * A suitable glue for your filament
-* * I used Gorilla SuperGlue
+    * I used Gorilla SuperGlue
 * White Lithium Grease
-* * I used "Sta-Lube Multi-Purpose Super White Lithium Grease"
+    * I used "Sta-Lube Multi-Purpose Super White Lithium Grease"
 * Files (See Below)
 
 # Files
@@ -73,49 +73,49 @@ Crank in Flexure Slot
 ## Printing
 * Print all parts in the orientations shown in the picture below.
 ![Print Orientations](Images/PrintOrientations.png)
-* * Note that one side of the C-shaped Circlip has a chamfer.  The flat side should rest on the print bed.
-* * The original was printed in Hatchbox PETG on a Prusa Mk3S using the Draft 0.3mm preset
+    * Note that one side of the C-shaped Circlip has a chamfer.  The flat side should rest on the print bed.
+    * The original was printed in Hatchbox PETG on a Prusa Mk3S using the Draft 0.3mm preset
 
 ## Step-by-Step Assembly
 * Bearing
-* * Press the bearing into the support
-* * Secure the bearing in the support with a M3x5mm screw and washer
+    * Press the bearing into the support
+    * Secure the bearing in the support with a M3x5mm screw and washer
 * Crankshaft
-* * Glue the crank pin into the crankshaft with superglue.
-* * Place the crankshaft through the bearing, and secure with the circular clip (circlip)
-* * * Note, the circlip groove is chamfered to enable printing.  The angle in the circlip needs to match this chamfer.
-* * * A large pair of pliers is helpful installing this clip
+    * Glue the crank pin into the crankshaft with superglue.
+    * Place the crankshaft through the bearing, and secure with the circular clip (circlip)
+        * Note, the circlip groove is chamfered to enable printing.  The angle in the circlip needs to match this chamfer.
+        * A large pair of pliers is helpful installing this clip
 ![Circlip Installation](Images/CirclipInstallation.jpg)
-* * Drive an M3x30mm screw fully into the crankshaft from the front/pin side
-* * * This screw reinforces the crankshaft to help prevent failure between layers.
-* * * This screw slightly expands the shaft, so it needs to be installed *after* the shaft is installed in the bearing.
+    * Drive an M3x30mm screw fully into the crankshaft from the front/pin side
+        * This screw reinforces the crankshaft to help prevent failure between layers.
+        * This screw slightly expands the shaft, so it needs to be installed *after* the shaft is installed in the bearing.
 * Base
-* * Attach the base to the support with 4 M3x14mm screws
-* * * The shortest side of the base faces toward the rear, the side that has the circlip and bearing retainer screw.
+    * Attach the base to the support with 4 M3x14mm screws
+        * The shortest side of the base faces toward the rear, the side that has the circlip and bearing retainer screw.
 * Worktop
-* * Attach the worktop to the support with 4 M3x14mm screws
-* * * The shortest side of the worktop faces toward the rear, the side that has the circlip and bearing retainer screw.
+    * Attach the worktop to the support with 4 M3x14mm screws
+        * The shortest side of the worktop faces toward the rear, the side that has the circlip and bearing retainer screw.
 * File Holder clamp
-* * Press in two M3 nuts into the back of the Flexure.  This is a tight fit, and pliers may help.
-* * Attach the file holder clamp to the flexure with 2 M3x12mm screws.
-* * The file holder clamp is reversible.
-* * * For large shank files, the concave side should face the flexure.
-* * * For small shank files, the convex side should face the flexure.
+    * Press in two M3 nuts into the back of the Flexure.  This is a tight fit, and pliers may help.
+    * Attach the file holder clamp to the flexure with 2 M3x12mm screws.
+    * The file holder clamp is reversible.
+        * For large shank files, the concave side should face the flexure.
+        * For small shank files, the convex side should face the flexure.
 * Flexure
-* * Using 8 M3x30mm screws and nuts, attach the flexure to the support.
-* * The file holder clamp should facing forward/out so they are easily removable to change files.
-* * The crankshaft pin should engage the slot in the flexure.
+    * Using 8 M3x30mm screws and nuts, attach the flexure to the support.
+    * The file holder clamp should facing forward/out so they are easily removable to change files.
+    * The crankshaft pin should engage the slot in the flexure.
 * Lubrication
-* * Apply a small dot of grease in the crankshaft pin slot in the flexure.
+    * Apply a small dot of grease in the crankshaft pin slot in the flexure.
 
 # Usage
 * Install a file.
-* * Loosening the File clamp screws.
-* * Insert file into the hole. 
-* * If necessary, flip the file clamp so can grasp securely.
-* * Tighten the File Clamp screws. 
+    * Loosening the File clamp screws.
+    * Insert file into the hole. 
+    * If necessary, flip the file clamp so can grasp securely.
+    * Tighten the File Clamp screws. 
 * Grip the crankshaft with the chuck of a drill.
-* * Optional and highly recommended, support the drill so the weight isn't hanging on the crankshaft.
+    * Optional and highly recommended, support the drill so the weight isn't hanging on the crankshaft.
 * Optional, clamp the base to a worksurface.
 * Using a zip-tie or clamp, turn on the drill.
 * Press the work into the moving file.
