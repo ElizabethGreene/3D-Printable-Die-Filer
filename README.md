@@ -153,3 +153,4 @@ Crank in Flexure Slot
   * Iterating minor version number as worktop parts are incompatible with previous release
     * TODO: Update BOM and Photos in readme
 	* remove redundant screws in flexure mechanism
+	* Todo: make video about making files
