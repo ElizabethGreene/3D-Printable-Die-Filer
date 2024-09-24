@@ -1,6 +1,6 @@
 # 3D-Printable-Die-Filer
 
-An open source 3d printable die filer v0.1.2 alpha
+An open source 3d printable die filer v0.1.3 alpha
 
 A die filer is a very old tool that uses an external power source to create reciprocating motion for a file.  This allows material removal that is faster and more controlled than hand filing.  It can remove material similar to Side Milling or Slot Milling in a milling machine.  Additionally, when equipped with square or triangular file, it can file a sharp corner e.g. for keyways or gear teeth.
 
@@ -37,7 +37,7 @@ This was specifically designed to use as few "vitamins", non-printed components,
 * Add work hold-downs
 * Consider forking and stretching the design for a big power hacksaw
 * ~~Edit this documentation to include pictures.~~
-* A tilting worktable would be nice.
+* ~~A tilting worktable would be nice.~~
 
 ## Bill of Materials
 
@@ -104,8 +104,12 @@ Crank in Flexure Slot
 * Base
   * Attach the base to the support with 4 M3x14mm screws
     * The shortest side of the base faces toward the rear, the side that has the circlip and bearing retainer screw.
+* Tilt Table Supports
+  * Attach L and R Tilt table supports to vertical support with 2 M3x15 SHCS in each side.  
 * Worktop
-  * Attach the worktop to the support with 4 M3x14mm screws
+  * Press two M3 nuts into Worktop underside
+  * Place Worktop supports into tilt table support
+  * Secure with 2 M3x14mm screws
     * The shortest side of the worktop faces toward the rear, the side that has the circlip and bearing retainer screw.
 * File Holder clamp
   * Press in two M3 nuts into the back of the Flexure.  This is a tight fit, and pliers may help.
@@ -141,3 +145,11 @@ Crank in Flexure Slot
 
 * 0.0.1 alpha - Initial release
 * 0.0.2 alpha - Bugfix: Bore and Counterbore in crankshaft missing
+* 0.1.3 alpha - Branch: Tilt Table,
+  * removed unneeded washers
+  * added tilt table
+  * combined bearing components
+  * created joints
+  * Iterating minor version number as worktop parts are incompatible with previous release
+    * TODO: Update BOM and Photos in readme
+	* remove redundant screws in flexure mechanism
