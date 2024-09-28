@@ -32,8 +32,6 @@ This was specifically designed to use as few "vitamins", non-printed components,
   * 1 M3 washer - Bearing Retainer
   * 1 608z Skate Bearing
   * 8 M3 nuts
-* A suitable glue for your filament
-  * I used Gorilla SuperGlue
 * White Lithium Grease
   * I used "Sta-Lube Multi-Purpose Super White Lithium Grease"
 * Files (See Below)
@@ -66,7 +64,7 @@ Crank in Flexure Slot
 ![Print Orientations](Images/PrintOrientations.png)
 ![Print Orientations 2](Images/PrintOrientations2.png)
   * Note that one side of the C-shaped Circlip has a chamfer.  The flat side should rest on the print bed.
-  * The Tilt Table 0.1.3a test model was printed in Hatchbox PLA on a Prusa Mk3S using the Draft 0.3mm preset
+  * The Tilt Table 1.0.1 test model was printed in Hatchbox PLA on a Prusa Mk3S using the Draft 0.3mm preset
     * The Flexure on the original model was printed in Hatchbox PETG and tested extensively (30+ hours)
     * The tilt table's modified flexure in PLA has not been as extensively tested and is considered experimental.
 
